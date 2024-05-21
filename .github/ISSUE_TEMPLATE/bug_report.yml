@@ -1,0 +1,98 @@
+name: Report a bug
+description: Tell us about a bug or issue you may have identified.
+title: "[Bug] "
+labels: ["bug"]
+assignees:
+  - hazzuk
+
+body:
+  - type: markdown
+    attributes:
+      value: "Thank you for reporting a bug. Please fill out the sections below:"
+
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Prerequisites
+      description: Take a couple minutes to help our maintainers work faster.
+      options:
+        - label: I have searched for duplicate or closed issues
+          required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: What version are you using?
+      description: Specify the version of the software where the bug is occurring.
+      placeholder: "e.g. 1.0.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the issue
+      description: Provide a brief description of the bug.
+      placeholder: "Describe whats happening. Include screenshots if possible."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: Describe what you expected to happen.
+      placeholder: "What should normally happen?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual behavior
+      description: Describe what actually happened.
+      placeholder: "What actually happened instead?"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: What operating system(s) are you seeing the issue on?
+      description: Select the operating system(s) where the bug occurs.
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: What browser(s) are you seeing the issue on (if applicable)?
+      description: Select the browser(s) where the bug occurs.
+      options:
+        - Brave
+        - Chrome
+        - DuckDuckGo
+        - Edge
+        - Firefox
+        - Librewolf
+        - Mullvad
+        - Opera
+        - Safari
+        - Vivaldi
+        - Other
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Add any additional notes
+      description: Include possible solutions, steps to reproduce, or important context.
+      placeholder: "Additional context or suggestions."
+    validations:
+      required: false
