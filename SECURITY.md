@@ -25,7 +25,9 @@ Instead, send an email to,
 (<span>&#100;</span><span>&#111;</span><span>&#116;</span>)
 <span>&#97;</span>
 <span>&#112;</span>
-<span>&#112;</span>.
+<span>&#112;</span>, detailing the vulnerablity.
+
+Thank you for helping us keep our software secure.
 
 <!-- Email obfuscation using HTML entities -->
 
@@ -33,5 +35,3 @@ Instead, send an email to,
 - Acknowledging receipt of your vulnerability report.
 - Keeping you informed throughout the process of fixing the issue.
 - Credit you for the discovery of the vulnerability if you wish.
-
-Thank you for helping us keep our software secure.

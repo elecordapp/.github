@@ -32,8 +32,8 @@ body:
     id: description
     attributes:
       label: Describe the issue
-      description: Provide a brief description of the bug.
-      placeholder: "Describe whats happening. Include screenshots if possible."
+      description: Describe what's happening, steps to reproduce the issue and any screenshots.
+      placeholder: "Provide a step by step description of the bug."
     validations:
       required: true
 
@@ -92,7 +92,7 @@ body:
     id: notes
     attributes:
       label: Add any additional notes
-      description: Include possible solutions, steps to reproduce, or important context.
+      description: Include possible solutions or any important context.
       placeholder: "Additional context or suggestions."
     validations:
       required: false

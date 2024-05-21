@@ -24,6 +24,7 @@ body:
     attributes:
       label: Proposal
       description: Provide detailed information on what we should add, please be sure to include as much detail & any related resources if possible!
+      placeholder: "Describe what the proposed feature or enhancement is."
     validations:
       required: true
 
@@ -32,5 +33,6 @@ body:
     attributes:
       label: Motivation and context
       description: Tell us why this change is needed or helpful, and what problems it may help solve.
+      placeholder: "Explain the reasons behind the proposal"
     validations:
       required: true
