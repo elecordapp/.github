@@ -6,26 +6,26 @@ Any security vulnerability discovered in Elecord software will be fixed as soon 
 If you've found a security vulnerability in our software, we appreciate your help in disclosing it to us in a responsible manner. Please do not create an issue on the GitHub issue tracker as it will be visible publicly. 
 
 Instead, send an email to,
-<span>&#115;</span>
-<span>&#101;</span>
-<span>&#99;</span>
-<span>&#117;</span>
-<span>&#114;</span>
-<span>&#105;</span>
-<span>&#116;</span>
-<span>&#121;</span>
+<span>&#83;</span>
+<span>&#69;</span>
+<span>&#67;</span>
+<span>&#85;</span>
+<span>&#82;</span>
+<span>&#73;</span>
+<span>&#84;</span>
+<span>&#89;</span>
 (<span>&#97;</span><span>&#116;</span>)
-<span>&#101;</span>
-<span>&#108;</span>
-<span>&#101;</span>
-<span>&#99;</span>
-<span>&#111;</span>
-<span>&#114;</span>
-<span>&#100;</span>
+<span>&#69;</span>
+<span>&#76;</span>
+<span>&#69;</span>
+<span>&#67;</span>
+<span>&#79;</span>
+<span>&#82;</span>
+<span>&#68;</span>
 (<span>&#100;</span><span>&#111;</span><span>&#116;</span>)
-<span>&#97;</span>
-<span>&#112;</span>
-<span>&#112;</span>, detailing the vulnerablity.
+<span>&#65;</span>
+<span>&#80;</span>
+<span>&#80;</span>, detailing the vulnerability.
 
 Thank you for helping us keep our software secure.
 
