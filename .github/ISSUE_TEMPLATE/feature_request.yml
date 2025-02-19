@@ -31,8 +31,17 @@ body:
   - type: textarea
     id: motivation
     attributes:
-      label: Motivation and context
+      label: Motivation
       description: Tell us why this change is needed or would be helpful, and what problems it could help to solve.
       placeholder: "Explain the reasons behind the proposal."
     validations:
       required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Provide any additional details, or relevant information to help us better understand the proposal.
+      placeholder: "Add any extra information."
+    validations:
+      required: false
